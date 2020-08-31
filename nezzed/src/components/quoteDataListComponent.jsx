@@ -1,15 +1,15 @@
 const listPrices = [
     {
         title: '1 a 3 páginas',
-        price: 10000
+        price: 137.83
     },
     {
         title: 'Más de 3 páginas',
-        price: 15000
+        price: 206.74
     },
     {
         title: 'SPA (Single Page Application)',
-        price: 20000
+        price: 275.65
     },
     {
         title: 'Sin base de datos',
@@ -17,11 +17,11 @@ const listPrices = [
     },
     {
         title: '1 GB a 250 GB',
-        price: 3000
+        price: 41.35
     },
     {
         title: 'Más de 250 GB',
-        price: 5000
+        price: 68.91
     },
     {
         title: 'Sin pagos internos',
@@ -29,11 +29,11 @@ const listPrices = [
     },
     {
         title: 'Pasarela de pagos',
-        price: 10000
+        price: 137.83
     },
     {
         title: 'Pasarela y carro de compras',
-        price: 20000
+        price: 275.65
     }
 ]
 let shopCar = [];
