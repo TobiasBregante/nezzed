@@ -36,10 +36,8 @@ const App = () => {
             </nav>
         </header>
         <Routes>
-          <Route path='/' element={<Home/>}>
-            <Route path="/about" element={<About/>}/>
-            <Route path="/" element={<Home/>}/>
-          </Route>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/about" element={<About/>}/>
         </Routes>
     </Router>
   );
